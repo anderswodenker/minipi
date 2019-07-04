@@ -1,6 +1,8 @@
-# Miniframework for Raspberry Pi (pure Python)
+# Miniframework for Raspberry Pi
 
-Create simple or complex applications with common components for the Raspberry Pi
+Create simple or complex applications with common components for the Raspberry Pi.
+
+**Quick and easy access to sensors in pure python!** 
 
 Supports the following sensors:
 
@@ -21,5 +23,4 @@ Supports the following sensors:
 
 - https://github.com/RogerWoollett (DS18B20)
 - https://github.com/adafruit/Adafruit_Python_DHT (DHT22)
-- https://github.com/adafruit/Adafruit_Python_GPIO (GPIO)
 - https://github.com/JGUINO/3189-capteurs-pressions (HX711)
