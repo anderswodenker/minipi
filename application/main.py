@@ -11,11 +11,16 @@ class App:
         self.config = Config()
         self.config_data = self.config.get_config_data()
 
+        # RELAY PIN
+        self.relay_pin = int(self.config_data['DEFAULT']['relay_pin'])
+        # DHT 22 PIN
+        self.dht22_pin = int(self.config_data['DEFAULT']['dht22_pin'])
+
         # INIT RELAY
-        self.relay = Device(int(self.config_data['DEFAULT']['relay_pin']), "relay")
+        self.relay = Device(self.relay_pin, "relay")
 
         # INIT DHT22 SENSOR
-        self.dht22 = DHT22(int(self.config_data['DEFAULT']['dht22_pin']))
+        self.dht22 = DHT22(self.dht22_pin)
 
         # INIT SCALE
         self.scale = Scale()
