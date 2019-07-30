@@ -1,4 +1,4 @@
-# Miniframework for Raspberry Pi
+# Miniframework for Raspberry Pi (Version 1.0)
 
 Create simple or complex applications with common components for the Raspberry Pi.
 
